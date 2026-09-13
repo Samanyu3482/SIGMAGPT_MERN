@@ -16,7 +16,7 @@ const getOpenAIAPIResponse = async (message) => {
                 messages: [
                     {
                         role: "assistant",
-                        content: req.body.message
+                        content: message
                     }
                 ]
             })
